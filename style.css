@@ -312,7 +312,7 @@ span {
 	margin-top: 50px;
 }
 
-#services .service-item {
+#services .service-item1 {
 	flex-basis: 80%;
 	display: flex;
 	align-items: flex-start;
@@ -320,7 +320,87 @@ span {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(IMG_20210418_153612_339.jpg);
+	background-image: url(react.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#services .service-item2 {
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(sanity.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#services .service-item3 {
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(redux.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#services .service-item4 {
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(firebase.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#services .service-item5 {
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(js.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#services .service-item6 {
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(bs.jpg);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -335,10 +415,11 @@ span {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #030508 100%);
+	/* background-image: linear-gradient(60deg, #29323c 0%, #030508 100%); */
 	opacity: .85;
 	z-index: -1;
 }
+
 #services .service-bottom .icon {
 	height: 80px;
 	width: 80px;
@@ -728,10 +809,36 @@ span {
 	#header .nav-list ul a::after {
 		display: none;
 	}
-	#services .service-bottom .service-item {
+	#services .service-bottom .service-item1 {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
+
+	#services .service-bottom .service-item2 {
+		flex-basis: 22%;
+		margin: 1.5%;
+	}
+
+	#services .service-bottom .service-item3 {
+		flex-basis: 22%;
+		margin: 1.5%;
+	}
+
+	#services .service-bottom .service-item4 {
+		flex-basis: 22%;
+		margin: 1.5%;
+	}
+
+	#services .service-bottom .service-item5 {
+		flex-basis: 22%;
+		margin: 1.5%;
+	}
+
+	#services .service-bottom .service-item6 {
+		flex-basis: 22%;
+		margin: 1.5%;
+	}
+
 	#projects .all-projects {
 		margin: 100px;
 	}
